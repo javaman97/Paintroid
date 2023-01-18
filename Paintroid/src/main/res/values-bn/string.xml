@@ -22,7 +22,6 @@
     <string name="pocketpaint_app_name">পকেট পেইন্ট</string>
     <string name="button_brush">তুলি</string>
     <string name="button_cursor">কার্সার</string>
-    <string name="button_set_center">Set Center</string>
     <string name="button_pipette">পিপেট</string>
     <string name="button_undo">পূর্বাবস্থায় ফিরুন</string>
     <string name="button_redo">পুনরায় করুন</string>
@@ -39,15 +38,12 @@
     <string name="button_watercolor">জলরং</string>
     <string name="button_spray_can">স্প্রে করতে পারেন</string>
     <string name="button_smudge">Smudge</string>
+    <string name="button_clip">Clip area</string>
     <string name="button_apply">প্রয়োগ করুন</string>
     <string name="button_checkmark">চেক চিহ্ন</string>
-    <string name="button_plus">লাইন সংযোগ রেখাংশ</string>
     <string name="done">করা হয়েছে</string>
     <string name="gallery">গ্যালারী</string>
-    <string name="load_sticker_error">স্টিকার লোড করা যায়নি</string>
-    <string name="error_unknown_error">কিছু একটা ভুল হয়েছে</string>
-    <string name="cap_circle">বৃত্ত</string>
-    <string name="cap_square">বর্গক্ষেত্র</string>
+    <string name="no_connection_sticker">Stickers not available, check your internet connection.</string>
     <string name="stamptool_paste">আটকান</string>
     <string name="stamptool_copy">অনুলিপি</string>
     <string name="stamptool_cut">কাটা</string>
@@ -77,7 +73,7 @@
     <string name="help_content_hand">ক্যানভাসটি সরানোর জন্য আপনার আঙুলটি সরান।</string>
     <string name="help_content_spray_can">স্প্রে ক্যান প্যাটার্ন তৈরি করতে ইমেজটিতে আপনার আঙুলটি সরান।</string>
     <string name="help_content_smudge">Move your finger on the image on different drawings to smudge them.</string>
-    <string name="closing_catroid_security_question_title">প্রজেক্টে ফিরে যান</string>
+    <string name="help_content_clip">Mark area which should not be erased.</string>
     <string name="closing_security_question_title">বের হোন</string>
     <string name="closing_security_question">পরিবর্তনগুলোর সংরক্ষন?</string>
     <string name="menu_new_image">নতুন ছবি</string>
@@ -85,6 +81,8 @@
     <string name="no_longclick_on_hidden_layer">সমস্ত স্তর দৃশ্যমান থাকলে আপনি কেবল মার্জ বা পুনঃক্রম করতে সক্ষম হবেন</string>
     <string name="no_tools_on_hidden_layer">লুকানো স্তরে কোনও সরঞ্জাম উপলব্ধ নেই</string>
     <string name="menu_load_image">চিত্র লোড করুন</string>
+    <string name="menu_replace_image">Replace image</string>
+    <string name="menu_add_to_current_layer">Add to current layer</string>
     <string name="menu_save_image">চিত্র সংরক্ষণ করুন</string>
     <string name="menu_save_copy">অনুলিপি সংরক্ষণ করুন</string>
     <string name="menu_hide_menu">পূর্ণস্ক্রিন</string>
@@ -106,12 +104,9 @@
     <string name="resize_nothing_to_resize">পুনঃস্থাপন করার মত কিছু নেই</string>
     <string name="resize_cannot_resize_to_this_size">এই আকার পরিবর্তন করতে পারে না</string>
     <string name="resize_max_image_resolution_reached">সর্বোচ্চ চিত্রের রেজোলিউশনে পৌঁছেছে</string>
-    <string name="text_tool_dialog_input_title">তোমার পাঠ</string>
-    <string name="text_tool_dialog_format_options">ফর্ম্যাট অপশন</string>
     <string name="text_tool_dialog_underline_shortcut">উ</string>
     <string name="text_tool_dialog_italic_shortcut">আমি</string>
     <string name="text_tool_dialog_bold_shortcut">খ</string>
-    <string name="text_tool_dialog_strike_through_shortcut">এবিসি</string>
     <string name="text_tool_dialog_input_hint">লিখতে এখানে আলতো চাপুন</string>
     <string name="text_tool_dialog_font_monospace">মনোস্পেস</string>
     <string name="text_tool_dialog_font_serif">সেরিফ</string>
@@ -145,7 +140,7 @@
     <string name="layer_too_many_layers">অনেকগুলি স্তর</string>
     <string name="layer_merged">স্তরগুলি একত্রিত হয়েছে</string>
     <string name="layer_background">স্তর ব্যাকগ্রাউন্ড</string>
-    <string name="dialog_shape_text">আকার</string>
+    <string name="layer_preview">Layer preview</string>
     <string name="dialog_loading_image_failed_title">চিত্র লোড করার সময় ভুল</string>
     <string name="dialog_loading_image_failed_text">বৈধ চিত্র নয়</string>
     <string name="dialog_settings">সেটিংস</string>
@@ -205,4 +200,5 @@
     <string name="pocketpaint_tool_icon_description">বর্তমান সরঞ্জাম আইকন</string>
     <string name="dialog_scale_title">চিত্র লোড করার জন্য খুব বড় is</string>
     <string name="dialog_scale_message">চিত্রটি লোড করার জন্য খুব বড়। চিত্রটি স্বয়ংক্রিয়ভাবে স্কেল করতে ওকে ক্লিক করুন।</string>
+    <string name="zoom_window_description">Used to display a zoomed in part of the drawing surface</string>
 </resources>

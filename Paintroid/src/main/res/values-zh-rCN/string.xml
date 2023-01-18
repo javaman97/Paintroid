@@ -22,7 +22,6 @@
     <string name="pocketpaint_app_name">口袋画板</string>
     <string name="button_brush">画笔</string>
     <string name="button_cursor">光标</string>
-    <string name="button_set_center">选择中心</string>
     <string name="button_pipette">吸管</string>
     <string name="button_undo">撤销</string>
     <string name="button_redo">重做</string>
@@ -39,15 +38,12 @@
     <string name="button_watercolor">水彩</string>
     <string name="button_spray_can">喷雾罐</string>
     <string name="button_smudge">涂抹</string>
+    <string name="button_clip">裁剪区域</string>
     <string name="button_apply">申请</string>
     <string name="button_checkmark">勾选</string>
-    <string name="button_plus">连接线段</string>
     <string name="done">已完成</string>
     <string name="gallery">画廊</string>
-    <string name="load_sticker_error">无法加载贴纸</string>
-    <string name="error_unknown_error">发生未知错误。</string>
-    <string name="cap_circle">环形</string>
-    <string name="cap_square">正方型</string>
+    <string name="no_connection_sticker">Stickers not available, check your internet connection.</string>
     <string name="stamptool_paste">粘贴</string>
     <string name="stamptool_copy">复制</string>
     <string name="stamptool_cut"> 剪切</string>
@@ -77,7 +73,7 @@
     <string name="help_content_hand">移动手指即可移动画布。</string>
     <string name="help_content_spray_can">在图像上移动手指，创建一个喷罐图案。</string>
     <string name="help_content_smudge">在图片的不同绘图上移动手指来进行涂抹。</string>
-    <string name="closing_catroid_security_question_title">返回到项目</string>
+    <string name="help_content_clip">标记不应删除的区域。</string>
     <string name="closing_security_question_title">退出</string>
     <string name="closing_security_question">是否保存修改?</string>
     <string name="menu_new_image">新建图像</string>
@@ -85,6 +81,8 @@
     <string name="no_longclick_on_hidden_layer">只有在所有图层都可见的情况下，您才能进行合并或重新排序。</string>
     <string name="no_tools_on_hidden_layer">隐藏层没有工具</string>
     <string name="menu_load_image">载入图像</string>
+    <string name="menu_replace_image">替换图像</string>
+    <string name="menu_add_to_current_layer">添加到当前图层</string>
     <string name="menu_save_image">保存图像</string>
     <string name="menu_save_copy">保存副本</string>
     <string name="menu_hide_menu">全屏</string>
@@ -106,12 +104,9 @@
     <string name="resize_nothing_to_resize">没有什么可调整大小</string>
     <string name="resize_cannot_resize_to_this_size">无法调整为此尺寸</string>
     <string name="resize_max_image_resolution_reached">达到最大图像分辨率</string>
-    <string name="text_tool_dialog_input_title">您的文本：</string>
-    <string name="text_tool_dialog_format_options">格式选项：</string>
     <string name="text_tool_dialog_underline_shortcut">你</string>
     <string name="text_tool_dialog_italic_shortcut">我</string>
     <string name="text_tool_dialog_bold_shortcut">乙</string>
-    <string name="text_tool_dialog_strike_through_shortcut">abc</string>
     <string name="text_tool_dialog_input_hint">点击此处添加文本</string>
     <string name="text_tool_dialog_font_monospace">等宽</string>
     <string name="text_tool_dialog_font_serif">衬线</string>
@@ -145,7 +140,7 @@
     <string name="layer_too_many_layers">图层数量过多</string>
     <string name="layer_merged">合并的图层</string>
     <string name="layer_background">图层背景</string>
-    <string name="dialog_shape_text">形状</string>
+    <string name="layer_preview">图层预览</string>
     <string name="dialog_loading_image_failed_title">加载图像时出错</string>
     <string name="dialog_loading_image_failed_text">不是有效的图像</string>
     <string name="dialog_settings">设置</string>
@@ -205,4 +200,5 @@
     <string name="pocketpaint_tool_icon_description">当前工具图标</string>
     <string name="dialog_scale_title">图片太大，无法加载</string>
     <string name="dialog_scale_message">图片太大，无法加载。单击 \"确定 \"可自动缩小图像。</string>
+    <string name="zoom_window_description">用来显示在绘图面上的缩放区域</string>
 </resources>

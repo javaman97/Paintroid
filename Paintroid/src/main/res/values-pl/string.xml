@@ -22,7 +22,6 @@
     <string name="pocketpaint_app_name">Pocket Paint</string>
     <string name="button_brush">Pędzel</string>
     <string name="button_cursor">Kursor</string>
-    <string name="button_set_center">Ustaw Środek</string>
     <string name="button_pipette">Pipeta</string>
     <string name="button_undo">Cofnij</string>
     <string name="button_redo">Ponów</string>
@@ -39,15 +38,12 @@
     <string name="button_watercolor">Akwarela</string>
     <string name="button_spray_can">Sprej</string>
     <string name="button_smudge">Smuga</string>
+    <string name="button_clip">Obszar klipu</string>
     <string name="button_apply">Zastosuj</string>
     <string name="button_checkmark">Zaznaczenie</string>
-    <string name="button_plus">Połącz segment linii</string>
     <string name="done">Zrobione</string>
     <string name="gallery">Galeria</string>
-    <string name="load_sticker_error">Nie można załadować naklejki</string>
-    <string name="error_unknown_error">Wystąpił nieznany błąd.</string>
-    <string name="cap_circle">Koło</string>
-    <string name="cap_square">Kwadrat</string>
+    <string name="no_connection_sticker">Stickers not available, check your internet connection.</string>
     <string name="stamptool_paste">Wklej</string>
     <string name="stamptool_copy">Kopiuj</string>
     <string name="stamptool_cut">Wytnij</string>
@@ -77,7 +73,7 @@
     <string name="help_content_hand">Przesuń palec, aby przesunąć kanwę.</string>
     <string name="help_content_spray_can">Przesuń palcem po obrazie, aby użyć spreju.</string>
     <string name="help_content_smudge">Przesuń palcem na obrazku na różnych rysunkach, aby je rozmazać.</string>
-    <string name="closing_catroid_security_question_title">Powrót do projektu</string>
+    <string name="help_content_clip">Zaznacz obszar, który nie powinien być skasowany.</string>
     <string name="closing_security_question_title">Opuść</string>
     <string name="closing_security_question">Zapisać zmiany?</string>
     <string name="menu_new_image">Nowy obraz</string>
@@ -85,6 +81,8 @@
     <string name="no_longclick_on_hidden_layer">Możesz scalić lub zmienić kolejność tylko wtedy, gdy wszystkie warstwy są widoczne</string>
     <string name="no_tools_on_hidden_layer">Żadne narzędzia nie są dostępne w ukrytej warstwie</string>
     <string name="menu_load_image">Załaduj obraz</string>
+    <string name="menu_replace_image">Zastąp obraz</string>
+    <string name="menu_add_to_current_layer">Dodaj do bieżącej warstwy</string>
     <string name="menu_save_image">Zapisz obraz</string>
     <string name="menu_save_copy">Zapisz kopię</string>
     <string name="menu_hide_menu">Cały ekran</string>
@@ -106,12 +104,9 @@
     <string name="resize_nothing_to_resize">nie ma niczego do zmiany rozmiaru</string>
     <string name="resize_cannot_resize_to_this_size">nie można zmienić na ten rozmiar</string>
     <string name="resize_max_image_resolution_reached">osiągnięto maksymalną rozdzielczość</string>
-    <string name="text_tool_dialog_input_title">Twój tekst:</string>
-    <string name="text_tool_dialog_format_options">Opcje formatowania:</string>
     <string name="text_tool_dialog_underline_shortcut">U</string>
     <string name="text_tool_dialog_italic_shortcut">I</string>
     <string name="text_tool_dialog_bold_shortcut">B</string>
-    <string name="text_tool_dialog_strike_through_shortcut">abc</string>
     <string name="text_tool_dialog_input_hint">Naciśnij tutaj, aby pisać</string>
     <string name="text_tool_dialog_font_monospace">Monospace</string>
     <string name="text_tool_dialog_font_serif">Serif</string>
@@ -145,7 +140,7 @@
     <string name="layer_too_many_layers">Za dużo warstw</string>
     <string name="layer_merged">Scalone warstwy</string>
     <string name="layer_background">Warstwa tła</string>
-    <string name="dialog_shape_text">Kształt</string>
+    <string name="layer_preview">Podgląd warstwy</string>
     <string name="dialog_loading_image_failed_title">Błąd ładowania obrazu</string>
     <string name="dialog_loading_image_failed_text">Nieprawidłowy obraz</string>
     <string name="dialog_settings">Ustawienia</string>
@@ -205,4 +200,5 @@
     <string name="pocketpaint_tool_icon_description">Bieżąca ikona narzędzia</string>
     <string name="dialog_scale_title">Obraz jest zbyt duży, aby go załadować</string>
     <string name="dialog_scale_message">Obraz jest zbyt duży, aby go załadować. Kliknij OK, aby automatycznie obniżyć obraz.</string>
+    <string name="zoom_window_description">Used to display a zoomed in part of the drawing surface</string>
 </resources>

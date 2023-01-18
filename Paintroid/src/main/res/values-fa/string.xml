@@ -22,7 +22,6 @@
     <string name="pocketpaint_app_name">رنگ جیب Pocket Paint</string>
     <string name="button_brush">برس</string>
     <string name="button_cursor">مکان نما</string>
-    <string name="button_set_center">Set Center</string>
     <string name="button_pipette">پاپت</string>
     <string name="button_undo">خنثی کردن</string>
     <string name="button_redo">باز کرد</string>
@@ -39,15 +38,12 @@
     <string name="button_watercolor">آبرنگ</string>
     <string name="button_spray_can">قوطی اسپری</string>
     <string name="button_smudge">Smudge</string>
+    <string name="button_clip">Clip area</string>
     <string name="button_apply">بکار ببر</string>
     <string name="button_checkmark">سوال سحی </string>
-    <string name="button_plus">اتصال بخش خط</string>
     <string name="done">انجام شد</string>
     <string name="gallery">گالری</string>
-    <string name="load_sticker_error">برچسب را نمی توان بارگیری کرد</string>
-    <string name="error_unknown_error">چیزی اشتباه شد</string>
-    <string name="cap_circle">دایره</string>
-    <string name="cap_square">مربع</string>
+    <string name="no_connection_sticker">Stickers not available, check your internet connection.</string>
     <string name="stamptool_paste">علاوه کن</string>
     <string name="stamptool_copy">نقل</string>
     <string name="stamptool_cut">قطع کن</string>
@@ -77,7 +73,7 @@
     <string name="help_content_hand">انگشت خود را حرکت دهید تا بوم را حرکت دهید.</string>
     <string name="help_content_spray_can">انگشت خود را بر روی تصویر حرکت دهید تا یک الگوی اسپری ایجاد شود.</string>
     <string name="help_content_smudge">Move your finger on the image on different drawings to smudge them.</string>
-    <string name="closing_catroid_security_question_title">بازگشت به پروژه</string>
+    <string name="help_content_clip">Mark area which should not be erased.</string>
     <string name="closing_security_question_title">ترک کن</string>
     <string name="closing_security_question">ذخیره تغییرات؟</string>
     <string name="menu_new_image">عکس جدید</string>
@@ -85,6 +81,8 @@
     <string name="no_longclick_on_hidden_layer">شما فقط قادر به ادغام یا مرتب کردن مجدد اگر تمام لایه ها قابل مشاهده باشند</string>
     <string name="no_tools_on_hidden_layer">هیچ ابزار در لایه پنهان موجود نیست</string>
     <string name="menu_load_image">تصویر اضافه کن</string>
+    <string name="menu_replace_image">Replace image</string>
+    <string name="menu_add_to_current_layer">Add to current layer</string>
     <string name="menu_save_image">ذخیره تصویر</string>
     <string name="menu_save_copy">ذخیره کپی</string>
     <string name="menu_hide_menu">تمام صفحه</string>
@@ -106,12 +104,9 @@
     <string name="resize_nothing_to_resize">چیز برای تغییر اندازه نیست</string>
     <string name="resize_cannot_resize_to_this_size">نمی تواند به این اندازه تغییر اندازه دهد</string>
     <string name="resize_max_image_resolution_reached">حداکثر رزولوشن تصویر رسیده است</string>
-    <string name="text_tool_dialog_input_title">متن تو:</string>
-    <string name="text_tool_dialog_format_options">گزینه ها فرمت:</string>
     <string name="text_tool_dialog_underline_shortcut">U</string>
     <string name="text_tool_dialog_italic_shortcut">I</string>
     <string name="text_tool_dialog_bold_shortcut">B</string>
-    <string name="text_tool_dialog_strike_through_shortcut">ا ب ت </string>
     <string name="text_tool_dialog_input_hint">برای نوشتن اینجا را ضربه بزنید</string>
     <string name="text_tool_dialog_font_monospace">Monospace</string>
     <string name="text_tool_dialog_font_serif">Serif</string>
@@ -145,7 +140,7 @@
     <string name="layer_too_many_layers"> لایه های بیش از حد</string>
     <string name="layer_merged">لایه ها ادغام شده</string>
     <string name="layer_background">پس زمینه لایه</string>
-    <string name="dialog_shape_text">شکل</string>
+    <string name="layer_preview">Layer preview</string>
     <string name="dialog_loading_image_failed_title">خطا در بارگیری تصویر</string>
     <string name="dialog_loading_image_failed_text">تصویر معتبر نیست</string>
     <string name="dialog_settings">تنظیمات</string>
@@ -205,4 +200,5 @@
     <string name="pocketpaint_tool_icon_description">آیکون فعلی ابزار</string>
     <string name="dialog_scale_title">تصویر بیش از حد بزرگ برای بارگذاری است</string>
     <string name="dialog_scale_message">تصویر بیش از حد بزرگ برای بارگذاری است. روی OK کلیک کنید تا تصویر را به طور خودکار به پایین بکشید.</string>
+    <string name="zoom_window_description">Used to display a zoomed in part of the drawing surface</string>
 </resources>
